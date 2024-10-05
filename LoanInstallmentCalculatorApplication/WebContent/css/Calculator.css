@@ -1,0 +1,97 @@
+body {
+	font-family: 'Arial', sans-serif;
+	background-color: #f0f4f8;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.container {
+	background-color: #ffffff;
+	border-radius: 10px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+	padding: 2rem;
+	width: 100%;
+	max-width: 400px;
+}
+
+h1 {
+	color: #2c3e50;
+	text-align: center;
+	margin-bottom: 1.5rem;
+}
+
+.form-group {
+	margin-bottom: 1rem;
+}
+
+label {
+	display: block;
+	margin-bottom: 0.5rem;
+	color: #34495e;
+}
+
+input[type="number"] {
+	width: 100%;
+	padding: 0.5rem;
+	border: 1px solid #bdc3c7;
+	border-radius: 4px;
+	font-size: 1rem;
+}
+
+.btn-calculate {
+	background-color: #3498db;
+	color: white;
+	border: none;
+	padding: 0.75rem;
+	width: 100%;
+	font-size: 1rem;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.btn-calculate:hover {
+	background-color: #2980b9;
+}
+
+.result {
+	text-align: center;
+	margin-top: 1.5rem;
+}
+
+.result h2 {
+	color: #2c3e50;
+	margin-bottom: 0.5rem;
+}
+
+.emi {
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #27ae60;
+}
+
+.actions {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 1.5rem;
+}
+
+.btn-schedule, .btn-save {
+	text-decoration: none;
+	background-color: #2ecc71;
+	color: white;
+	border: none;
+	padding: 0.5rem 1rem;
+	font-size: 1rem;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.btn-schedule:hover, .btn-save:hover {
+	background-color: #27ae60;
+}
