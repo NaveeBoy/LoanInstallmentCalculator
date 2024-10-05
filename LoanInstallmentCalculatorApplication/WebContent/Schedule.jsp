@@ -20,7 +20,7 @@
                 <th>Capital Balance</th>
             </tr>
             <%
-                DecimalFormat df = new DecimalFormat("#.##");
+                DecimalFormat df = new DecimalFormat("#.###");
                 double loanAmount = 500000; // Static loan amount
                 double interestRate = 0.01; // 12% annual interest rate
                 int repaymentPeriod = 36; // 36 months
